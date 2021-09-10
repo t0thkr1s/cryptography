@@ -3,6 +3,7 @@
 > The null cipher adds noise to the plaintext, with the goal of making the plaintext hard to isolate.
 
 ### How does it work?
+
 In the following example, I’m going to encrypt a message with a key of 3. This means that the third letter of every word in the encrypted text will be part of the plain text. It’s important to mention that counting starts from 0, so check the fourth letter in every word. I think there is not much to explain the example is pretty straightforward.
 
 ***Encrypted message:***
@@ -14,6 +15,7 @@ In the following example, I’m going to encrypt a message with a key of 3. This
 > SECRET
 
 ## Encryption
+
 If you’re not a programmer or new to programming, don’t worry I'll try to explain how the code works.
 
 ```python
@@ -82,7 +84,6 @@ The *decrypt(message, key)* method is very simple. Again, I removed some special
 ## The Full Source Code
 
 ```python
-
 import argparse
 import random
 
@@ -168,5 +169,4 @@ def main():
 
 if __name__ == '__main__':
     main()
-
 ```
