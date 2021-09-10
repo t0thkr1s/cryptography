@@ -3,6 +3,7 @@
 > The Caesar cipher, also known as the shift cipher, is a type of substitution cipher. Each letter in the plaintext is replaced with a letter a fixed number of positions to the left or right of that letter in the alphabet.
 
 ### How does it work?
+
 In the following example, I’m going to encrypt a message with a key of 2. This means that in order to decrypt a message, you have to shift the alphabet left or right. The key specifies how much you have to shift. Let’s take right shift decryption, for example, C becomes A and G becomes E. I think there is not much to explain the example is pretty straightforward.
 
 ***Encrypted message:***
@@ -14,6 +15,7 @@ In the following example, I’m going to encrypt a message with a key of 2. This
 > SECRET
 
 ## Encryption
+
 If you’re not a programmer or new to programming, don’t worry I'll try to explain how the code works.
 
 ```python
